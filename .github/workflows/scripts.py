@@ -66,7 +66,7 @@ def update_the_json(pecha: Pecha):
 
 
 def main():
-    pecha_id = pecha_id = Path.cwd().name
+    pecha_id = Path.cwd().name
     pecha = Pecha.from_id(pecha_id)
     update_the_json(pecha)
 
